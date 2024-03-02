@@ -3,7 +3,244 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Latihan Remote</title>
+    <title>Uleen Game Portal</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My css -->
+    <link rel="stylesheet" href="assets/styles/style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <!-- awal header -->
+    <header id="beranda" class="showcase">
+      <div class="showcase-top">
+        <!-- hamburger menu -->
+        <button class="burger-menu">
+          <i class="fa-solid fa-bars menuIcon"></i>
+          <i class="fa-solid fa-x closeIcon"></i>
+        </button>
+        <!-- akhir hamburger menu -->
+        <a href="#beranda"
+          ><img src="assets/image/logo.png" alt="uleen-logo" class="logo"
+        /></a>
+        <nav class="menu">
+          <a href="#beranda">Beranda</a>
+          <a href="#fitur">Fitur</a>
+          <a href="#game">Game</a>
+          <a href="#about">Tentang Saya</a>
+        </nav>
+        <a href="#" class="btn">Masuk</a>
+      </div>
+    </header>
+    <!-- akhir dari header -->
+
+    <!-- awal main -->
+    <main>
+      <div id="content">
+        <article class="showcase-container">
+          <div class="showcase-content">
+            <h1>Game Portalnya Indonesia</h1>
+            <p class="showcase-text">
+              U-leen [dibaca "ulin"] adalah game portal buatan Indonesia. Disini
+              kalian bisa memainkan banyak game dengan berbagai genre dari mulai
+              game RPG, Action, Puzzle hingga game Multiplayer.
+            </p>
+            <a href="#" class="btn-xl">Download Sekarang</a>
+          </div>
+
+          <!-- showcase slide -->
+          <div class="showcase-slide">
+            <div class="slides">
+              <img src="assets/image/slide/1.jpg" alt="" class="slide active" />
+              <img src="assets/image/slide/2.jpg" alt="" class="slide" />
+              <img src="assets/image/slide/3.jpg" alt="" class="slide" />
+              <img src="assets/image/slide/4.jpg" alt="" class="slide" />
+              <img src="assets/image/slide/5.jpg" alt="" class="slide" />
+            </div>
+          </div>
+        </article>
+        <!-- akhir showcase slide -->
+
+        <!-- tab fitur -->
+        <article id="fitur" class="fitur-container">
+          <div class="tabs">
+            <div class="container">
+              <div id="tab-1" class="tab-item tab-border">
+                <i class="fa-solid fa-gamepad"></i>
+                <p>Beli Game Kesukaanmu</p>
+              </div>
+              <div id="tab-2" class="tab-item">
+                <i class="fa-solid fa-layer-group"></i>
+                <p>Berlangganan Game Pass</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content">
+            <div class="container">
+              <!-- Tab content 1 -->
+              <section id="tab-1-content" class="tab-content-item show">
+                <div class="tab-content-inner">
+                  <h2>Beli langsung Setiap Game nya</h2>
+                  <p>
+                    Kamu bisa langsung beli game yang kamu suka secara satuan,
+                    kamu suka game nya, kamu beli game nya, semudah itu!
+                  </p>
+                  <a href="#game" class="btn-xl">Lihat Galeri</a>
+                </div>
+                <img
+                  src="assets/image/tab1.jpg"
+                  alt=""
+                  class="tab-content-img"
+                />
+              </section>
+
+              <!-- Tab content 2 -->
+              <section id="tab-2-content" class="tab-content-item">
+                <img
+                  src="assets/image/tab2.jpg"
+                  alt=""
+                  class="tab-content-img"
+                />
+                <div class="tab-content-inner">
+                  <h2>Berlangganan Game Pass Untuk Kebebasan</h2>
+                  <p>
+                    Kamu bisa berlangganan Uleen Game Pass dan kamu bisa bebas
+                    memainkan semua game yang ada di dalam galeri Game Pass,
+                    Mainkan semua game nya tanpa batas!
+                  </p>
+                  <a href="#" class="btn-xl">Berlangganan Game Pass</a>
+                </div>
+              </section>
+            </div>
+          </div>
+        </article>
+        <!-- akhir tab fitur -->
+
+        <!-- tab Game -->
+        <article id="game">
+          <h2>Galeri Game</h2>
+          <div class="gallery-container">
+            <img
+              src="assets/image/gallery/ds.jpg"
+              alt=""
+              class="gallery-content gallery-active"
+            />
+            <img
+              src="assets/image/gallery/godfall.jpg"
+              alt=""
+              class="gallery-content"
+            />
+            <img
+              src="assets/image/gallery/gtav.jpg"
+              alt=""
+              class="gallery-content"
+            />
+            <img
+              src="assets/image/gallery/pal.jpg"
+              alt=""
+              class="gallery-content"
+            />
+            <img
+              src="assets/image/gallery/pubg.jpg"
+              alt=""
+              class="gallery-content"
+            />
+            <img
+              src="assets/image/gallery/rdr.jpg"
+              alt=""
+              class="gallery-content"
+            />
+            <img
+              src="assets/image/gallery/spiderman.jpg"
+              alt=""
+              class="gallery-content"
+            />
+            <img
+              src="assets/image/gallery/toa.jpg"
+              alt=""
+              class="gallery-content"
+            />
+          </div>
+          <p>Dan masih banyak lagi.....</p>
+        </article>
+        <!-- akhir tab game -->
+      </div>
+
+      <!-- tab tentang saya -->
+      <aside id="about">
+        <article>
+          <h2>Tentang Saya</h2>
+          <div class="about-container">
+            <div class="about-profile">
+              <img src="assets/image/profilepic.jpg" alt="Foto Profil" />
+              <p>Mildan Falah</p>
+              <a href="https://github.com/mildanfalah" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/mildan_falah/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/mildan-falah/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://www.youtube.com/@kuronekopaw" target="_blank"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+            <div class="about-bio">
+              <p>
+                Hai perkenalkan nama saya Mildan Falah, saya sedang menjalani
+                pembelajaran di Bootcamp Dicoding, buat kamu yang ingin mengenal
+                lebih jauh tentang saya bisa follow social media saya dengan
+                cara klik icon media sosial di sebelah kiri saya, selain itu
+                saya juga seorang content creator di youtube, link ke channel
+                youtube saya juga sudah saya sediakan di sebelah kiri profil
+                ini. Salam Kenal ya!
+              </p>
+            </div>
+          </div>
+        </article>
+      </aside>
+      <!-- akhir tab tentang saya -->
+    </main>
+    <!-- akhir main -->
+
+    <!-- awal footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-socmed">
+          <p>Ikuti kami!</p>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footer-note">
+          <p>
+            Created with <i class="fa-regular fa-heart"></i> by
+            <a href="#">Mildan Falah</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+
+    <!-- My Javascript -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9e2c6746bb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
